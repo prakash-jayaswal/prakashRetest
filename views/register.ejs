@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <title>Register</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Register</h1>
+    <form action="/shortUrls" method="POST" class="my-4 form-inline">
+
+      <label for="name" class="sr-only">Name</label>
+      <input required placeholder="name" type="text" name="name" id="name" class="form-control col mr-2">
+
+      <label for="email" class="sr-only">Email</label>
+      <input required placeholder="email" type="email" name="email" id="email" class="form-control col mr-2">
+
+
+      <label for="password" class="sr-only">Password</label>
+      <input required placeholder="password" type="password" name="password" id="password" class="form-control col mr-2">
+      <label for="email" class="sr-only">PhoneNo</label>
+      <input required placeholder="contactNo" type="number" name="contactNo" id="contactNo" class="form-control col mr-2">
+    
+      <button class="btn btn-success" type="submit">Register</button>
+    </form>
+    <div class="text-center p-t-90">
+        <a class="txt1" href="login">
+          click here for  login 
+        </a>
+    </div>
+    
+  </div>
+</body>
+</html>
